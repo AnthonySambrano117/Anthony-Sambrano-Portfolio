@@ -1,13 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <h1>Hello World!</h1>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
     
+    .container {
+    position: relative;
+    text-align: center;
+    }
+
+/* Bottom left text */
+    .top-right {
+      position: absolute;
+      background: rgba(62, 61, 61, 0.5);
+      top: 140px;
+      left: 16px;
+      color: white;
+      padding: 1rem;
+      border-radius: 16px;
+      width: 50%;
+    }
+    #photo-section {
+      padding: 0;
+      margin: 0;
+    }
+  nav.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 95px;
+    
+  }
+  body{
+    margin: 0px;
+  }
+
+  h1{
+    /* padding:1rem */
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .section-head {
+    scroll-margin-top: 95px;
+  }
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+}
+
+.row{
+  padding: 1rem 0;
+
+}
+
+
+
+  </style>
+  
+  </head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand link-light" href="#"><h1 class="Name">Anthony Sambrano </h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active link-light" aria-current="page" href="#skills">Skills</h1></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#job-history">Job History</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link link-light" href="#education-and-certifcation">Education</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link link-light" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+      <section id="photo-section">
+        <div class="container"></div>
+          <img src="/images/Profile-pic.jpg" alt="Pic of Anthony" width=100%>
+          <div class="top-right slide-left">
+        <h1>I like to make a positive impact and accomplish tasks that make a difference</h1>
+        </div>
+      </section> 
+      <div class="m-5 p-3">
+      <section id="skills-section">
+      <p id="skills" class="h1 section-head">Skills</p>
+      <div class="container text-center">
+          <div class="row">
+          <div class="col">
+              <div class="card h-100" style="width: 18rem;">
+              <img src="/images/python.webp" class="card-img-top" alt="Pic of Python">
+              <div class="card-body">
+                  <p class="card-text ">Skills in Python</p>
+              </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100" style="width: 18rem;">
+              <img src="/images/HTML.png" class="card-img-top" alt="Picture of HTML Logo">
+              <div class="card-body">
+                  <p class="card-text">Skills in HTML</p>
+              </div>
+              </div>
+          </div>
+          <div class="col">
+
+              <div class="card h-100" style="width: 18rem;">
+              <img src="/images/Javascript.png" class="card-img-top" alt="Picture of New Spartan Armor">
+              <div class="card-body">
+                  <p class="card-text">Skills in Javascript </p>
+              </div>
+              </div>             
+          </div>
+          </div>
+      </div>
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                <img src="/images/testrail.png" class="card-img-top" alt="Pic of Testrail logo">
+                <div class="card-body">
+                    <p class="card-text">Skills in Testrail</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                <img src="/images/postman.png" class="card-img-top" alt="Picture of Postman logo">
+                <div class="card-body">
+                    <p class="card-text">Skilled in Postman</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+    
+                <div class="card h-100" style="width: 18rem;">
+                <img src="/images/CSS.png" class="card-img-top" alt="Picture of CSS logo">
+                <div class="card-body">
+                    <p class="card-text">Skills in CSS</p>
+                </div>
+                </div>             
+            </div>
+            </div>
+        </div>
+      </section>
+      <section id="Eduction-section">
+        <h1 id="job-history" class="h1 section-head">Job History</h1>
+        <!--Current Job -->
+        <div class="card">
+          <h5 class="card-header">Socialclimb</h5>
+          <div class="card-body">
+            <h5 class="card-title">Manual QA</h5>
+            <p class="card-text">I manually test new software in both pre and post release stages, collaborate with software developer engineers to 
+              ensure product meets standards, and document defects in detail using JIRA.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+        <!-- Second Job -->
+        <div class="card">
+          <h5 class="card-header">U.S Army</h5>
+          <div class="card-body">
+            <h5 class="card-title">Logistic Officer</h5>
+            <p class="card-text">
+            Maintenance Control Officer-Manages battalion maintenance program
+            Distro Platoon Leader-Manages distribution of logistic supplies to a battalion. 
+            Maintenance Platoon Leader-Administrator and Manage over 100 personnel</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+        <!-- Education and Certs -->
+        <!-- Army Cert -->
+        <h1 id="education-and-certifcation" class="h1 section-head">Education and Certifcations</h1>
+        <div class="card">
+          <h5 class="card-header">U.S Logistics University</h5>
+          <div class="card-body">
+            <h5 class="card-title">Logistics Certification</h5>
+            <p class="card-text">Quartermaster Basic Officer Leadership Course 
+            </p>
+          </div>
+        </div>
+        <!-- Bacholor Cert -->
+        <div class="card">
+          <h5 class="card-header">Brigham Young University-Idaho</h5>
+          <div class="card-body">
+            <h5 class="card-title">Bachelor's Degree</h5>
+            <p class="card-text">Quartermaster Basic Officer Leadership Course 
+            </p>
+
+          </div>
+        </div>
+        <!-- Scrum Cert -->
+        <div class="card">
+          <h5 class="card-header">ScrumStudy</h5>
+          <div class="card-body">
+            <h5 class="card-title">Scrum Fundamentals Certified</h5>
+            <p class="card-text">Accreditation Body for Scrum and Agile </p>
+        </div>
+
+
+
+
+      </section>
+
+
+      </div>
+    </main>
+
+
+
+
+  
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+
+    <footer id= contact class="text-center text-white section-head" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4" >
+      <!-- Section: Social media -->
+      <section class="mb-4">
+
+        <!-- Google Email -->
+        <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="anthony.r.sambrano117@gmail.com"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.linkedin.com/in/anthony-sambrano/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://github.com/AnthonySambrano117"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="">anthonysambrano.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+<!-- End of .container -->
+  
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
